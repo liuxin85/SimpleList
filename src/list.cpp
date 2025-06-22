@@ -45,7 +45,7 @@ void List::add_item(){
 
 void List::delete_item(){
     cout << "*** Delte Item *** \n";
-    cout << "Select an item index number to delete\n";
+    cout << "Select an item index number to delete: \n";
     
     if(list.size()){
         for(unsigned int i =0; i <  list.size(); i++){
